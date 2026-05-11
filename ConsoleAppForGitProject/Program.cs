@@ -14,6 +14,12 @@ namespace ConsoleAppForGit
 			c = a + b;
 			Console.WriteLine($"Addition ={c}");
 		}
+			void Substraction()
+		{
+			int a = 10, b = 20, c;
+			c = a - b;
+			Console.WriteLine($"Substraction ={c}");
+		}
 		static void Main(string[] args)
 		{
 			Program p = new Program();
