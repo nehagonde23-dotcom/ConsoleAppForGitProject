@@ -12,5 +12,12 @@ namespace ConsoleAppForGitProject
         {
             Console.WriteLine("Calling Tester Data");
         }
+
+        public void Addition()
+        {
+            int a = 40;
+            int b = a + a;
+            Console.WriteLine("Add=" + b);
+        }
     }
 }
